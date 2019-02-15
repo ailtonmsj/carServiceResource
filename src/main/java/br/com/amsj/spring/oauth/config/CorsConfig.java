@@ -32,6 +32,7 @@ public class CorsConfig implements Filter {
             try {
                 chain.doFilter(req, res);
             } catch(Exception e) {
+            	System.out.println("--> DEU RUIM 1");
                 e.printStackTrace();
             }
         } else {

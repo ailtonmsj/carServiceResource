@@ -5,3 +5,9 @@ security:
   oauth2:
     resource:
       user-info-uri: http://localhost:9091/user
+      token-info-uri: 
+    client:
+      client-id: carServiceClient
+      client-secret: clientSecret
+    
+    
