@@ -9,5 +9,12 @@ security:
     client:
       client-id: carServiceClient
       client-secret: clientSecret
+      
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+  file: logs/spring-boot-logging.log
     
     
